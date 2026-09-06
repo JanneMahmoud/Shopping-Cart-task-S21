@@ -1,8 +1,5 @@
 <div class="app-container">
 
-  <!-- ================================ -->
-  <!-- HEADER -->
-  <!-- ================================ -->
 
   <header class="header">
 
@@ -13,16 +10,8 @@
   </header>
 
 
-  <!-- ================================ -->
-  <!-- MAIN CONTENT -->
-  <!-- ================================ -->
-
   <main class="main-content">
 
-
-    <!-- ================================ -->
-    <!-- PRODUCTS SECTION -->
-    <!-- ================================ -->
 
     <section class="products-section">
 
@@ -63,15 +52,7 @@
 
     </section>
 
-
-    <!-- ================================ -->
-    <!-- CART SECTION -->
-    <!-- ================================ -->
-
     <section class="cart-section">
-
-
-      <!-- CART HEADER -->
 
       <div class="cart-header">
 
@@ -83,8 +64,6 @@
 
       </div>
 
-
-      <!-- EMPTY CART -->
 
       @if (cart().length === 0) {
 
@@ -105,7 +84,6 @@
       } @else {
 
 
-        <!-- CART ITEMS -->
 
         <div class="cart-items">
 
@@ -116,9 +94,6 @@
           ) {
 
             <div class="cart-item">
-
-
-              <!-- PRODUCT INFORMATION -->
 
               <div class="cart-product-info">
 
@@ -132,8 +107,6 @@
 
               </div>
 
-
-              <!-- REMOVE BUTTON -->
 
               <button
                 class="remove-button"
@@ -149,12 +122,9 @@
         </div>
 
 
-        <!-- CART SUMMARY -->
 
         <div class="cart-summary">
 
-
-          <!-- TOTAL -->
 
           <div class="total-row">
 
@@ -168,8 +138,6 @@
 
           </div>
 
-
-          <!-- CLEAR CART BUTTON -->
 
           <button
             class="clear-button"
@@ -186,10 +154,6 @@
 
   </main>
 
-
-  <!-- ================================ -->
-  <!-- FOOTER -->
-  <!-- ================================ -->
 
   <footer>
 
